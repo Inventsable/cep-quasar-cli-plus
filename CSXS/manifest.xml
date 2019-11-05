@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<ExtensionManifest ExtensionBundleId="com.quasar" ExtensionBundleVersion="1.0.0" ExtensionBundleName="quasar" Version="8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ExtensionManifest ExtensionBundleId="com.namehere" ExtensionBundleVersion="1.0.0" ExtensionBundleName="namehere" Version="8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ExtensionList>
-    <Extension Id="com.quasar.panel" Version="1.0.0" />
-    <Extension Id="com.quasar.modal" Version="1.0.0" />
+    <Extension Id="com.namehere.panel" Version="1.0.0" />
+    <Extension Id="com.namehere.modal" Version="1.0.0" />
   </ExtensionList>
   <ExecutionEnvironment>
-    <HostList>
-      <Host Name="ILST" Version="[23,99.9]" />
+    <HostList>hostlisthere
     </HostList>
     <LocaleList>
       <Locale Code="All" />
@@ -16,7 +15,7 @@
     </RequiredRuntimeList>
   </ExecutionEnvironment>
   <DispatchInfoList>
-    <Extension Id="com.quasar.panel">
+    <Extension Id="com.namehere.panel">
       <DispatchInfo>
         <Resources>
           <MainPath>./src/index-dev.html</MainPath>
@@ -31,7 +30,7 @@
         </Lifecycle>
         <UI>
           <Type>Panel</Type>
-          <Menu>Quasar-CLI Plus</Menu>
+          <Menu>titlehere</Menu>
           <Geometry>
             <Size>
               <Height>400</Height>
@@ -50,7 +49,7 @@
         </UI>
       </DispatchInfo>
     </Extension>
-    <Extension Id="com.quasar.modal">
+    <Extension Id="com.namehere.modal">
       <DispatchInfo>
         <Resources>
           <MainPath>./src/index-dev.html</MainPath>

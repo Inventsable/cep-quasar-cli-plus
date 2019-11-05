@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExtensionList>
-    <Extension Id="com.quasar.panel">
-        <HostList>
-            <Host Name="ILST" Port="2239" />
-        </HostList>
-    </Extension>
-    <Extension Id="com.quasar.modal">
-        <HostList>
-            <Host Name="ILST" Port="2240" />
+    <Extension Id="com.namehere.panel">
+        <HostList>porthere
         </HostList>
     </Extension>
 </ExtensionList>

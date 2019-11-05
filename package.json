@@ -5,7 +5,6 @@
   "productName": "Quasar App",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
-  "author": "Tom Scharstein <trscharstein@gmail.com>",
   "private": true,
   "scripts": {
     "serve": "quasar dev",
